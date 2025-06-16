@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=InfoCircle
+comment1.params=tooltipText
+comment1.target=InfoCircle(java.lang.String)
+comment2.params=g
+comment2.target=void\ paintComponent(java.awt.Graphics)
+numComments=3
