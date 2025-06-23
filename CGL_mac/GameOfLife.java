@@ -16,9 +16,11 @@ public class GameOfLife
     public GameOfLife() {
         JFrame frame = new JFrame("Game of Life");
         BoardPanel panel = new BoardPanel();
+        panel.setLayout(null);//So that I can manually change layout values
         panel.setPreferredSize(new Dimension(cols * cellSize, rows * cellSize));
         
         InfoCircle info = new InfoCircle("Click to toggle cells.Hover over circle for help. Start button runs the game.");
+        info.setBounds(10, 10, 40, 40); // Set position and size manually
         panel.add(info); 
 
         frame.add(panel);
